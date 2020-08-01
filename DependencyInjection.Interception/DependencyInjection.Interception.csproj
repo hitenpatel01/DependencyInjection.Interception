@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Hiten Patel</Authors>
+    <Description>A library to perform interception based AOP using Microsoft.Extension.DepenencyInjection.</Description>
+    <PackageProjectUrl>https://github.com/hitenpatel01/DependencyInjection.Interception/blob/master/README.md</PackageProjectUrl>
+    <PackageId>DependencyInjection.Interception</PackageId>
+    <Product>DependencyInjection.Interception</Product>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <AssemblyName>DependencyInjection.Interception</AssemblyName>
+    <RootNamespace>DependencyInjection.Interception</RootNamespace>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/hitenpatel01/DependencyInjection.Interception</RepositoryUrl>
+    <Copyright>Copyright (c) 2020 Hiten Patel</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>AOP Interception</PackageTags>
+    <Title>DependencyInjection.Interception</Title>
+    <Summary>A library to perform interception based AOP using Microsoft.Extension.DepenencyInjection.</Summary>
+    <Language>C#</Language>
+    <RepositoryType>Github</RepositoryType>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

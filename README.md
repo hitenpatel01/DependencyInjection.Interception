@@ -1,5 +1,12 @@
 # DependencyInjection.Interception
-A library to perform interception based AOP using Microsoft.Extension.DepenencyInjection
+A library to perform interception based AOP using .Net Core DI
+
+## Introduction
+Extend .NET Core DI to create proxy wrapper around service class instances to intercept method execution
+- execute custom code before and/or after method execution to inject dynamic behavior
+- modularize cross cutting concerns (logging, caching, security, etc.) into their own classes
+- flexibility to control which class/methods should be intercepted
+ 
 ## Getting Started
 1. Install package from nuget `dotnet add package DependencyInjection.Interception`
 2. Create one or more class that will perform interception by inheriting from `Interceptor` class and overriding `PreInterceptor` and `PostInterceptor` methods as needed

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Hiten Patel</Authors>
-    <Description>A library to perform interception based AOP using Microsoft.Extension.DepenencyInjection.</Description>
+    <Description>A library to perform interception based AOP using .Net Core DI</Description>
     <PackageProjectUrl>https://github.com/hitenpatel01/DependencyInjection.Interception/blob/master/README.md</PackageProjectUrl>
     <PackageId>DependencyInjection.Interception</PackageId>
     <Product>DependencyInjection.Interception</Product>
@@ -20,6 +20,8 @@
     <Language>C#</Language>
     <RepositoryType>Github</RepositoryType>
     <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

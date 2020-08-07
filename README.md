@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8bfmf7rdo7ue9ytx?svg=true)](https://ci.appveyor.com/project/patelhi/dependencyinjection-interception)
+[![codecov](https://codecov.io/gh/hitenpatel01/DependencyInjection.Interception/branch/master/graph/badge.svg)](https://codecov.io/gh/hitenpatel01/DependencyInjection.Interception)
+
 # DependencyInjection.Interception
 A library to perform interception based AOP using .Net Core DI
 
